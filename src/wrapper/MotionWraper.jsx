@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import {motion} from 'framer-motion';
 
 const MotionWrap = (Component,className)=> function HOC() {

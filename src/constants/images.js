@@ -27,7 +27,7 @@ import docker from '../assets/docker.png';
 import express from '../assets/express.png';
 import mysql from '../assets/mysql.png';
 
-export default {
+const images = {
   express,
   mysql,
   docker,
@@ -55,3 +55,5 @@ export default {
   about03,
   about04,
 };
+
+export default images;

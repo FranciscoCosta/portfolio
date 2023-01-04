@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./About.scss";
 import { motion } from "framer-motion";
 
 import sobremim from "../../data/aboutme";
-import aboutMe from "../../data/aboutme";
 
 import AppWrap from '../../wrapper/AppWrap'
 

@@ -11,7 +11,7 @@ const Footer = () => {
 
   const form = useRef();
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  const [isFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const { username, email, message } = formData;

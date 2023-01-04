@@ -1,6 +1,3 @@
-import { images } from "../constants"
-
-
 
 const experiences = [{
     year: "2004/2007",

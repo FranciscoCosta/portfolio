@@ -12,8 +12,8 @@ import ReactTooltip from 'react-tooltip';
 
 
 const Skills = () => {
-  const [experiences, setExperiences] = useState(experienceslearn);
-  const [skills, setSkills] = useState(skillslearn);
+  const [experiences ] = useState(experienceslearn);
+  const [skills] = useState(skillslearn);
 
 
   return (
