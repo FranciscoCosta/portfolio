@@ -8,7 +8,7 @@ const experiences = [{
         {
         name: "Inglês Fluente",
         company: "Instituto Britânico de Braga",
-        descp: "Formação no Instituto Britânico de Braga 5º Ano",
+        desc: "Formação no Instituto Britânico de Braga 5º Ano",
     }]
 },
 {
@@ -17,7 +17,7 @@ const experiences = [{
         {
         name: "Ensino Superior Completo no curso de Engenharia Geográfica",
         company: "Universidade do Porto",
-        descp: "Universidade do Porto no curso de Engenharia Geográfica",
+        desc: "Universidade do Porto no curso de Engenharia Geográfica",
     }]
 },
 {
@@ -26,7 +26,7 @@ const experiences = [{
         {
         name: "Intercâmbio Internacional",
         company: "Universidade de Jaén",
-        descp: "Intercâmbio Internacional na Espanha na Universidade de Jaén",
+        desc: "Intercâmbio Internacional na Espanha na Universidade de Jaén",
     }]
 },
 {
@@ -35,7 +35,7 @@ const experiences = [{
         {
         name: "Gerente de loja",
         company: "Viveiros Dulce",
-        descp: "Gerente de loja na empresa Viveiros Dulce",
+        desc: "Gerente de loja na empresa Viveiros Dulce",
     }]
 },
 {
@@ -44,7 +44,7 @@ const experiences = [{
         {
         name: "Estudante Desenvolvimento de Web",
         company: "Trybe",
-        descp: "Estudante na Escola Trybe no Curso Desenvolvimento de Web",
+        desc: "Estudante na Escola Trybe no Curso Desenvolvimento de Web",
     }]
 },
 ]

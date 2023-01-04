@@ -7,7 +7,7 @@ import MotionWrap from '../../wrapper/MotionWraper'
 
 import skillslearn from '../../data/skills';
 import experienceslearn from '../../data/experience';
-import { Tooltip } from 'react-tooltip'
+import ReactTooltip from 'react-tooltip';
 
 
 
@@ -18,7 +18,7 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills & Experiência</h2>
+      <h2 className="head-text">Skills & Experiences</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -33,7 +33,7 @@ const Skills = () => {
                 className="app__flex"
                 style={{ backgroundColor: skill.bgColor }}
               >
-                <img src={(skill.icon)} alt={skill.name} />
+                <img src={skill.icon} alt={skill.name} />
               </div>
               <p className="p-text">{skill.name}</p>
             </motion.div>
@@ -62,14 +62,14 @@ const Skills = () => {
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
                     </motion.div>
-                    <Tooltip
+                    <ReactTooltip
                       id={work.name}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
                       {work.desc}
-                    </Tooltip>
+                    </ReactTooltip>
                   </>
                 ))}
               </motion.div>
@@ -83,6 +83,6 @@ const Skills = () => {
 
 export default AppWrap(
   MotionWrap(Skills, 'app__skills'),
-  'Skills',
+  'skills',
   'app__whitebg',
 );

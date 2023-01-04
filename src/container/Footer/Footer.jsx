@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 
 import { images } from '../../constants';
-import AppWrap from '../../wrapper/AppWrap'
-import MotionWrap from '../../wrapper/MotionWraper'
+import AppWrap from '../../wrapper/AppWrap';
+import MotionWrap from '../../wrapper/MotionWraper';
+import emailjs from '@emailjs/browser';
 
 import './Footer.scss';
 
 const Footer = () => {
+
+  const form = useRef();
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -18,16 +21,19 @@ const Footer = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = () => {
+
+  const handleSubmit = (e) => {
     setLoading(true);
+    e.preventDefault();
 
-    const contact = {
-      _type: 'contact',
-      name: formData.username,
-      email: formData.email,
-      message: formData.message,
-    };
-
+    emailjs.sendForm('service_n6luvfo', 'template_zs3kj24', form.current, '89L3K0FyuSge3OC8B')
+      .then((result) => {
+          console.log(result.text);
+          setLoading(false);
+      }, (error) => {
+          console.log(error.text);
+          setLoading(false);
+      });
   };
 
   return (
@@ -45,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <form className="app__footer-form app__flex"ref={form} onSubmit={handleSubmit}>
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Nome:" name="username" value={username} onChange={handleChangeInput} />
           </div>
@@ -61,8 +67,8 @@ const Footer = () => {
               onChange={handleChangeInput}
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>{!loading ? 'Enviar' : 'Enviando...'}</button>
-        </div>
+          <button type="submit" className="p-text">{!loading ? 'Enviar' : 'Enviando...'}</button>
+        </form>
       ) : (
         <div>
           <h3 className="head-text">
