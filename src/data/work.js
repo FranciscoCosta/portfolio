@@ -38,7 +38,7 @@ const work = [{
     description:"Um e-commerce criado através da api do mercado livre",
     projectLink: "https://lnkd.in/dBNHNzBr",
     codeLink: "https://lnkd.in/dQYWMh-q",
-    title: "T-Recipes",
+    title: "Trybe Market",
     tags: ["UI/UX","React JS","Web App"],
 },
 {

@@ -16,7 +16,7 @@ function About() {
         História <span>Neste Mundo!</span>
       </h2>
 
-      <div className="app__profiles">
+      <div className="app__profiles ">
         {sobremim.map((item,index)=>(
           <motion.div
           whileInView={{opacity: 1}}
@@ -36,4 +36,4 @@ function About() {
   );
 }
 
-export default AppWrap(About, "Sobre mim");
+export default AppWrap(About, "Sobre mim", "app__whitebg");

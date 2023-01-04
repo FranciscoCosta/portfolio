@@ -21,9 +21,18 @@ import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
 import moon from '../assets/moon.png';
 import sun from '../assets/sun.png';
-
+import api from '../assets/api.png';
+import jest from '../assets/jest.png';
+import docker from '../assets/docker.png';
+import express from '../assets/express.png';
+import mysql from '../assets/mysql.png';
 
 export default {
+  express,
+  mysql,
+  docker,
+  api,
+  jest,
   profile,
   circle,
   logo,
