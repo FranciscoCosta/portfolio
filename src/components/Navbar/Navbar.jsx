@@ -44,7 +44,7 @@ const Navbar = () => {
         <motion.img
           src={isOn ? images.moon : images.sun}
           key={isOn ? "moon" : "sun"}
-          animate={{ x: isOn ? 0 : 50, opacity: 1 }}
+          animate={{ x: isOn ? 0 : 55, opacity: 1 }}
           transition={{ duration: 0.2 }}
         ></motion.img>
       </motion.div>
