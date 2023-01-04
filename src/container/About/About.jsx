@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import sobremim from "../../data/aboutme";
 import aboutMe from "../../data/aboutme";
 
+import AppWrap from '../../wrapper/AppWrap'
+
 function About() {
   return (
     <>
@@ -34,4 +36,4 @@ function About() {
   );
 }
 
-export default About;
+export default AppWrap(About, "Sobre mim");

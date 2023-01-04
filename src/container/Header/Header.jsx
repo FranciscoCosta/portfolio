@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 
 
+import AppWrap from '../../wrapper/AppWrap'
+
 const scaleVariants = {
   whileInView:{
     scale: [0,1],
@@ -18,7 +20,6 @@ const scaleVariants = {
 function Header() {
   return (
     <div 
-    id ="home"
     className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], opacity: [0, 1] }}
@@ -70,4 +71,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default AppWrap(Header, 'Home');

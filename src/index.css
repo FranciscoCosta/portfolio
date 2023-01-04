@@ -11,18 +11,24 @@
   --brown-color: #46364a;
   --white-color: #ffffff;
 
+  --hoverwork: rgba(0, 0, 0, 0.5);
+  --shadowwork: 0 0 25px rgba(0, 0, 0, 0.2);
+  --bgnewwhite: #fff;
   --bgnav: rgba(255, 255, 255, 0.25);
 }
 
 .dark-mode:root {
-  --primary-color: #030303;
+  --primary-color: #394249;
   --secondary-color: #8ecae6;
   --black-color: #edf2f8;
   --lightGray-color: #394249;
-  --gray-color: #edf2f8;
+  --gray-color: #b5b8bc;
   --brown-color: #d2ad7e;
-  --white-color: #030303;
+  --white-color: #6b7688;
 
+  --hoverwork: rgba(255,255,255,0.5)
+  --shadowwork: 0 0 25px rgba(255, 255, 255, 0.8);
+  --bgnewwhite: black;
   --bgnav: rgba(0, 0, 0, 0.55);
 }
 
