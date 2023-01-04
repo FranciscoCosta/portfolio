@@ -12,10 +12,10 @@ const Navbar = () => {
   const toogleTheme=()=>{
     setisOn(!isOn)
     if(isOn){
-      document.body.classList.add('dark-mode')
+      document.querySelector("html").classList.remove('dark-mode')
     }
     else{ 
-      document.body.classList.remove('dark-mode')
+      document.querySelector("html").classList.add('dark-mode')
     }
   }
   return (

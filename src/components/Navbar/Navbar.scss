@@ -179,9 +179,15 @@
     align-items: center;
     transition: all 1s ease-in-out;
     border: 1px solid rgba(168, 168, 168, 0.75);
+    
 
     img {
       height: 30px;
       width: 30px;
+      border: 1px solid black;
+      background-color: rgba(168, 168, 168, 0.25);
+      border-radius: 50%;
+      padding: 2px;
+      cursor: pointer;
     }
   }

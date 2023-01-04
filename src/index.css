@@ -13,13 +13,13 @@
 }
 
 .dark-mode:root {
-  --primary-color: red;
-  --secondary-color: red;
-  --black-color: red
-  --lightGray-color: red;
-  --gray-color: red;
-  --brown-color: red;
-  --white-color: red;
+  --primary-color: black;
+  --secondary-color: yellow;
+  --black-color: black;
+  --lightGray-color: black;
+  --gray-color: black;
+  --brown-color: black;
+  --white-color: black;
 }
 
 * {
