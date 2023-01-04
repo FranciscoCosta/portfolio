@@ -12,15 +12,15 @@
   --white-color: #ffffff;
 }
 
-/* .dark-mode:root {
-    --primary-color: #edf2f8;
-    --secondary-color: #313bac;
-    --black-color: #030303;
-    --lightGray-color: #e4e4e4;
-    --gray-color: #6b7688;
-    --brown-color: #46364a;
-    --white-color: #ffffff;
-} */
+.dark-mode:root {
+  --primary-color: red;
+  --secondary-color: red;
+  --black-color: red
+  --lightGray-color: red;
+  --gray-color: red;
+  --brown-color: red;
+  --white-color: red;
+}
 
 * {
   box-sizing: border-box;
