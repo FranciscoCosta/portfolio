@@ -37,8 +37,8 @@ const Navbar = () => {
         transition={{ duration: 0.5 }}
         style={{
           background: isOn
-            ? "linear-gradient(109.8deg,rgba(62,5,116,1) -5.2%,rgba(41,14,151,1) -5.2%, rgba(216,68,148,1) 103.3%)"
-            : "radial-gradient(circle farthest-corner at 10% 20%, rgba(253,203,50,1) 0%, rgba(244,56,98,1) 100.2%)",
+            ? "linear-gradient(50deg, rgba(237,242,248,1) 15%, rgba(107,118,136,1) 86%)"
+            : "linear-gradient(310deg, rgba(237,242,248,1) 15%, rgba(107,118,136,1) 86%)",
         }}
       >
         <motion.img

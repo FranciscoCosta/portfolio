@@ -10,16 +10,20 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
+
+  --bgnav: rgba(255, 255, 255, 0.25);
 }
 
 .dark-mode:root {
-  --primary-color: black;
-  --secondary-color: yellow;
-  --black-color: black;
-  --lightGray-color: black;
-  --gray-color: black;
-  --brown-color: black;
-  --white-color: black;
+  --primary-color: #030303;
+  --secondary-color: #8ecae6;
+  --black-color: #edf2f8;
+  --lightGray-color: #394249;
+  --gray-color: #6b7688;
+  --brown-color: #d2ad7e;
+  --white-color: #030303;
+
+  --bgnav: rgba(0, 0, 0, 0.55);
 }
 
 * {
