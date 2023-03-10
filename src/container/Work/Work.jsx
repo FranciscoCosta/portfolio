@@ -41,19 +41,24 @@ const Work = () => {
         <br /> Como dev
       </h2>
       <div className="app__work-filter">
-        {["UI/UX", "Web App", "React JS", "Desenvolvimento", "All"].map(
-          (item, index) => (
-            <div
-              key={index}
-              onClick={() => handleWorkFilter(item)}
-              className={`app__work-fitler-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {[
+          "UI/UX",
+          "Web App",
+          "React JS",
+          "Desenvolvimento",
+          "Full-stack",
+          "All",
+        ].map((item, index) => (
+          <div
+            key={index}
+            onClick={() => handleWorkFilter(item)}
+            className={`app__work-fitler-item app__flex p-text ${
+              activeFilter === item ? "item-active" : ""
+            }`}
+          >
+            {item}
+          </div>
+        ))}
       </div>
       <motion.div
         animate={animatedCard}
