@@ -13,7 +13,7 @@ const work = [
     projectLink: "https://virtualvortex.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/VisualVortex",
     title: "VisualVortex",
-    tags: ["React JS", "Web App", "AI"],
+    tags: ["Full-stack", "Web App", "AI"],
   },
 
   {
