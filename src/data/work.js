@@ -9,7 +9,7 @@ const work = [
   {
     name: "VisualVortex",
     img: visualVortex,
-    description: "AI generator App",
+    description: "AI image generator App",
     projectLink: "https://virtualvortex.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/VisualVortex",
     title: "VisualVortex",
