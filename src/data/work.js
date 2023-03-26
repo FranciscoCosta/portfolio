@@ -10,7 +10,7 @@ const work = [
   {
     name: "VisualVortex",
     img: visualVortex,
-    description: "AI image generator App",
+    description: "Um gerador de imagens com IA",
     projectLink: "https://virtualvortex.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/VisualVortex",
     title: "VisualVortex",
@@ -19,7 +19,7 @@ const work = [
   {
     name: "Gigtastic",
     img: gigtastic,
-    description: "A website where you can post your virtual services",
+    description: "Website onde podes postar os teus serviços digitais",
     projectLink: "https://github.com/FranciscoCosta/Gigtastic",
     codeLink: "https://github.com/FranciscoCosta/Gigtastic",
     title: "Gigtastic",
@@ -29,7 +29,7 @@ const work = [
   {
     name: "Restaurante",
     img: work1,
-    description: "Restaurante landing page",
+    description: "Lading page para um restaurante",
     projectLink: "https://portugueslp.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/RestauranteLP",
     title: "Português LP",
