@@ -4,6 +4,7 @@ import work3 from "../assets/work3.png";
 import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import visualVortex from "../assets/visualVortex.png";
+import gigtastic from "../assets/gigtastic.png";
 
 const work = [
   {
@@ -14,6 +15,15 @@ const work = [
     codeLink: "https://github.com/FranciscoCosta/VisualVortex",
     title: "VisualVortex",
     tags: ["Full-stack", "Web App", "AI"],
+  },
+  {
+    name: "Gigtastic",
+    img: gigtastic,
+    description: "A website where you can post your virtual services",
+    projectLink: "https://github.com/FranciscoCosta/Gigtastic",
+    codeLink: "https://github.com/FranciscoCosta/Gigtastic",
+    title: "Gigtastic",
+    tags: ["Full-stack", "Web App", "React JS"],
   },
 
   {
