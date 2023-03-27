@@ -4,7 +4,7 @@ import work3 from "../assets/work3.png";
 import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import visualVortex from "../assets/visualVortex.png";
-import gigtastic from "../assets/gigtastic.png";
+import gigtastic from "../assets/gigtatisc.png";
 
 const work = [
   {
