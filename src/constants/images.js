@@ -26,6 +26,7 @@ import jest from '../assets/jest.png';
 import docker from '../assets/docker.png';
 import express from '../assets/express.png';
 import mysql from '../assets/mysql.png';
+import mongo from '../assets/mongo.png'
 
 const images = {
   express,
@@ -45,6 +46,7 @@ const images = {
   html,
   javascript,
   node,
+  mongo,
   python,
   react,
   redux,

@@ -53,6 +53,11 @@ const skills = [{
     icon: images.node, 
 },
 {
+    name: "Mongo",
+    bgColor: "var(--primary-color)",
+    icon: images.mongo, 
+},
+{
     name: "Docker",
     bgColor: "var(--primary-color)",
     icon: images.docker, 
