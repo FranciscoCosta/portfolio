@@ -5,6 +5,7 @@ import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import visualVortex from "../assets/visualVortex.png";
 import gigtastic from "../assets/gigtatisc.png";
+import TrybeDelivery from "../assets/TrybeDelivery.png";
 
 const work = [
   {
@@ -23,6 +24,15 @@ const work = [
     projectLink: "https://github.com/FranciscoCosta/Gigtastic",
     codeLink: "https://github.com/FranciscoCosta/Gigtastic",
     title: "Gigtastic",
+    tags: ["Full-stack", "Web App", "React JS"],
+  },
+  {
+    name: "TrybeDelivery",
+    img: TrybeDelivery,
+    description: "Um app de delivery de bebidas fullstack",
+    projectLink: "https://www.linkedin.com/posts/francisco-costa-dev_react-github-mysql-activity-7054151317769887745-aQpn?utm_source=share&utm_medium=member_desktop",
+    codeLink: "https://github.com/FranciscoCosta/TrybeDelivery",
+    title: "TrybeDelivery",
     tags: ["Full-stack", "Web App", "React JS"],
   },
 
