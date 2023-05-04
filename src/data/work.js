@@ -13,9 +13,9 @@ const work = [
     name: "AutoMatch",
     img: AutoMatch,
     description: "Um app para loja de reparação de veículos",
-    projectLink: "automatch2023.netlify.app/",
+    projectLink: "https://automatch2023.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/Car-system",
-    title: "TrybeDelivery",
+    title: "AutoMatch",
     tags: ["Full-stack", "Web App", "React JS"],
   },
   {
