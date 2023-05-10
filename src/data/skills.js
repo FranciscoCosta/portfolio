@@ -73,6 +73,18 @@ const skills = [{
     name: "Mysql",
     bgColor: "var(--primary-color)",
     icon: images.mysql, 
+},{
+    name: "Python",
+    bgColor: "var(--primary-color)",
+    icon: images.python, 
+},{
+    name: "Typescript",
+    bgColor: "var(--primary-color)",
+    icon: images.typescript, 
+},{
+    name: "Java",
+    bgColor: "var(--primary-color)",
+    icon: images.java, 
 }
 ]
 
