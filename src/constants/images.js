@@ -28,6 +28,8 @@ import express from '../assets/express.png';
 import mysql from '../assets/mysql.png';
 import mongo from '../assets/mongo.png';
 import java from '../assets/java.png';
+import php from '../assets/php.svg';
+import laravel from '../assets/laravel.svg';
 
 const images = {
   express,
@@ -58,6 +60,8 @@ const images = {
   about02,
   about03,
   about04,
+  php,
+  laravel,
 };
 
 export default images;

@@ -85,6 +85,16 @@ const skills = [{
     name: "Java",
     bgColor: "var(--primary-color)",
     icon: images.java, 
+},
+{
+    name: "Php",
+    bgColor: "var(--primary-color)",
+    icon: images.php, 
+},
+{
+    name: "Laravel",
+    bgColor: "var(--primary-color)",
+    icon: images.laravel, 
 }
 ]
 
