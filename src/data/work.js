@@ -3,12 +3,22 @@ import work2 from "../assets/work2.png";
 import work3 from "../assets/work3.png";
 import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
+import work6 from "../assets/work6.png";
 import visualVortex from "../assets/visualVortex.png";
 import gigtastic from "../assets/gigtatisc.png";
 import TrybeDelivery from "../assets/TrybeDelivery.png";
 import AutoMatch from "../assets/autoMatch.png";
 
 const work = [
+  {
+    name: "adotePet",
+    img: work6,
+    description: "Um website para adoção de animais",
+    projectLink: "https://github.com/FranciscoCosta/AdotePet",
+    codeLink: "https://github.com/FranciscoCosta/AdotePet",
+    title: "adotePet",
+    tags: ["Full-stack", "Web App", "React JS", "Em desenvolvimento"],
+  },
   {
     name: "AutoMatch",
     img: AutoMatch,
