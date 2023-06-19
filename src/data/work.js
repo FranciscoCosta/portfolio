@@ -17,7 +17,7 @@ const work = [
     projectLink: "https://github.com/FranciscoCosta/AdotePet",
     codeLink: "https://github.com/FranciscoCosta/AdotePet",
     title: "adotePet",
-    tags: ["Full-stack", "Web App", "React JS", "Em desenvolvimento"],
+    tags: ["Em desenvolvimento","Full-stack", "Web App", "React JS", "Node JS"],
   },
   {
     name: "AutoMatch",
@@ -71,7 +71,7 @@ const work = [
     projectLink: "https://github.com/Alunos-Trybe/TrybeWars",
     codeLink: "https://github.com/Alunos-Trybe/TrybeWars",
     title: "TrybeWars",
-    tags: ["Desenvolvimento", "React JS"],
+    tags: ["Em desenvolvimento", "React JS"],
   },
   {
     name: "T-Recipes",
