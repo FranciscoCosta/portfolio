@@ -4,12 +4,22 @@ import work3 from "../assets/work3.png";
 import work4 from "../assets/work4.png";
 import work5 from "../assets/work5.png";
 import work6 from "../assets/work6.png";
+import work7 from "../assets/totalvagas.jpg";
 import visualVortex from "../assets/visualVortex.png";
 import gigtastic from "../assets/gigtatisc.png";
 import TrybeDelivery from "../assets/TrybeDelivery.png";
 import AutoMatch from "../assets/autoMatch.png";
 
 const work = [
+  {
+    name: "totalVagas",
+    img: work7,
+    description: "Uma app para encontrar vagas de emprego",
+    projectLink: "https://github.com/FranciscoCosta/AdotePet",
+    codeLink: "https://www.linkedin.com/posts/francisco-costa-dev_opentowork-react-reactnative-activity-7085639230470656000-9_OZ?utm_source=share&utm_medium=member_desktop",
+    title: "totalVagas",
+    tags: ["React Native","UI/UX",],
+  },
   {
     name: "adotePet",
     img: work6,

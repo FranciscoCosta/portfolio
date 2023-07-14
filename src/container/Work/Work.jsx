@@ -46,6 +46,7 @@ const Work = () => {
           "Web App",
           "React JS",
           "Em desenvolvimento",
+          "React Native",
           "Full-stack",
           "All",
         ].map((item, index) => (
