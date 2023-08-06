@@ -10,13 +10,13 @@ const aboutMe = [
   {
     title: "Por onde andei...",
     description:
-      "Sempre gostei de conhecer lugares novos e outras culturas. Tive a oportunidade de viajar bastante e fiquei a viver durante 1 ano na Espanha. Desde 2021 vivo no Brasil, em MG na cidade de Belo Horizonte.",
+      "Sempre gostei de conhecer lugares novos e outras culturas. Tive a oportunidade de viajar bastante e fiquei a viver durante 1 ano na Espanha. Desde 2021 vivo no Brasil.",
     img: images.about02,
   },
   {
     title: "Curiosidades !",
     description:
-      "Fatos aleatórios sobre mim: Pratiquei Taekwondo durante 11 anos, já fui campeão nacional de Full-Contact e sei tocar Piano. Além disso, sou casado, vim com a minha esposa e cachorro para o Brasil e tenho um canal no YouTube.",
+      "Fatos aleatórios sobre mim: Pratiquei Taekwondo durante 11 anos, já fui campeão nacional de Full-Contact e sei tocar Piano. Além disso, sou casado, vim com a minha esposa e cachorro para o Brasil.",
     img: images.about03,
   },
   {
