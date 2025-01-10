@@ -82,9 +82,9 @@ const skills = [{
     bgColor: "var(--primary-color)",
     icon: images.typescript, 
 },{
-    name: "Java",
+    name: "Go",
     bgColor: "var(--primary-color)",
-    icon: images.java, 
+    icon: images.go, 
 },
 {
     name: "Php",

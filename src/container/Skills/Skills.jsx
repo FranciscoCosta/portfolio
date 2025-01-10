@@ -1,24 +1,32 @@
 import './Skills.scss';
 
-import React, { useState, } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import AppWrap from '../../wrapper/AppWrap'
-import MotionWrap from '../../wrapper/MotionWraper'
+import AppWrap from '../../wrapper/AppWrap';
+import MotionWrap from '../../wrapper/MotionWraper';
 
 import skillslearn from '../../data/skills';
 import experienceslearn from '../../data/experience';
 import ReactTooltip from 'react-tooltip';
-
-
+import { useLanguage } from '../../context/LanguageContext';
 
 const Skills = () => {
-  const [experiences ] = useState(experienceslearn);
+  const { language } = useLanguage();
+  const [experiences] = useState(experienceslearn);
   const [skills] = useState(skillslearn);
 
+  const translations = {
+    en: {
+      title: "Skills & Experiences",
+    },
+    pt: {
+      title: "Skills & Experiências",
+    }
+  };
 
   return (
     <>
-      <h2 className="head-text" id='Skills'>Skills & Experiências</h2>
+      <h2 className="head-text" id='Skills'>{translations[language].title}</h2>
 
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
@@ -43,10 +51,10 @@ const Skills = () => {
           {experiences.map((experience) => (
             <motion.div
               className="app__skills-exp-item"
-              key={experience.year}
+              key={experience.year[language]}
             >
               <div className="app__skills-exp-year">
-                <p className="bold-text">{experience.year}</p>
+                <p className="bold-text">{experience.year[language]}</p>
               </div>
               <motion.div className="app__skills-exp-works">
                 {experience.works.map((work) => (
@@ -56,19 +64,19 @@ const Skills = () => {
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tip
-                      data-for={work.name}
-                      key={work.name}
+                      data-for={work.name[language]}
+                      key={work.name[language]}
                     >
-                      <h4 className="bold-text">{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
+                      <h4 className="bold-text">{work.name[language]}</h4>
+                      <p className="p-text">{work.company[language]}</p>
                     </motion.div>
                     <ReactTooltip
-                      id={work.name}
+                      id={work.name[language]}
                       effect="solid"
                       arrowColor="#fff"
                       className="skills-tooltip"
                     >
-                      {work.desc}
+                      {work.desc[language]}
                     </ReactTooltip>
                   </>
                 ))}

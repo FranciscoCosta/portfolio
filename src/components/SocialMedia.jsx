@@ -23,7 +23,7 @@ function SocialMedia() {
             <BsInstagram
             style={{cursor: "pointer"}}
             onClick={(e) => {
-              window.open("https://www.instagram.com/tuga_no_brasil/", "_blank");
+              window.open("https://www.instagram.com/franciscocostadev/", "_blank");
       }}/>
         </div>
     </div>

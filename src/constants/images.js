@@ -19,6 +19,7 @@ import about04 from '../assets/about04.png';
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
 import logo from '../assets/logo.png';
+import logoWhite from '../assets/Logo_white.png';
 import moon from '../assets/moon.png';
 import sun from '../assets/sun.png';
 import api from '../assets/api.png';
@@ -28,8 +29,9 @@ import express from '../assets/express.png';
 import mysql from '../assets/mysql.png';
 import mongo from '../assets/mongo.png';
 import java from '../assets/java.png';
+import go from '../assets/Go.png'
 import php from '../assets/php.svg';
-import laravel from '../assets/laravel.svg';
+import laravel from '../assets/laravel.png';
 
 const images = {
   express,
@@ -40,6 +42,7 @@ const images = {
   profile,
   circle,
   logo,
+  logoWhite,
   email,
   mobile,
   css,
@@ -62,6 +65,7 @@ const images = {
   about04,
   php,
   laravel,
+  go,
 };
 
 export default images;

@@ -12,103 +12,201 @@ import AutoMatch from "../assets/autoMatch.png";
 
 const work = [
   {
-    name: "totalVagas",
+    name: {
+      en: "totalVagas",
+      pt: "totalVagas"
+    },
     img: work7,
-    description: "Uma app para encontrar vagas de emprego",
+    description: {
+      en: "An app to find job vacancies",
+      pt: "Uma app para encontrar vagas de emprego"
+    },
     projectLink: "https://www.linkedin.com/posts/francisco-costa-dev_opentowork-react-reactnative-activity-7085639230470656000-9_OZ?utm_source=share&utm_medium=member_desktop",
     codeLink: "https://github.com/FranciscoCosta/AdotePet",
-    title: "totalVagas",
-    tags: ["React Native","UI/UX",],
+    title: {
+      en: "totalVagas",
+      pt: "totalVagas"
+    },
+    tags: ["React Native", "UI/UX"],
   },
   {
-    name: "adotePet",
+    name: {
+      en: "adotePet",
+      pt: "adotePet"
+    },
     img: work6,
-    description: "Um website para adoção de animais",
+    description: {
+      en: "A website for pet adoption",
+      pt: "Um website para adoção de animais"
+    },
     projectLink: "https://github.com/FranciscoCosta/AdotePet",
     codeLink: "https://github.com/FranciscoCosta/AdotePet",
-    title: "adotePet",
-    tags: ["Em desenvolvimento","Full-stack", "Web App", "React JS", "Node JS"],
+    title: {
+      en: "adotePet",
+      pt: "adotePet"
+    },
+    tags: ["Em desenvolvimento", "Full-stack", "Web App", "React JS", "Node JS"],
   },
   {
-    name: "AutoMatch",
+    name: {
+      en: "AutoMatch",
+      pt: "AutoMatch"
+    },
     img: AutoMatch,
-    description: "Um app para loja de reparação de veículos",
+    description: {
+      en: "An app for vehicle repair shop",
+      pt: "Um app para loja de reparação de veículos"
+    },
     projectLink: "https://automatch2023.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/Car-system",
-    title: "AutoMatch",
+    title: {
+      en: "AutoMatch",
+      pt: "AutoMatch"
+    },
     tags: ["Full-stack", "Web App", "React JS"],
   },
   {
-    name: "TrybeDelivery",
+    name: {
+      en: "TrybeDelivery",
+      pt: "TrybeDelivery"
+    },
     img: TrybeDelivery,
-    description: "Um app de delivery de bebidas fullstack",
+    description: {
+      en: "A fullstack beverage delivery app",
+      pt: "Um app de delivery de bebidas fullstack"
+    },
     projectLink: "https://www.linkedin.com/posts/francisco-costa-dev_react-github-mysql-activity-7054151317769887745-aQpn?utm_source=share&utm_medium=member_desktop",
     codeLink: "https://github.com/FranciscoCosta/TrybeDelivery",
-    title: "TrybeDelivery",
+    title: {
+      en: "TrybeDelivery",
+      pt: "TrybeDelivery"
+    },
     tags: ["Full-stack", "Web App", "React JS"],
   },
   {
-    name: "VisualVortex",
+    name: {
+      en: "VisualVortex",
+      pt: "VisualVortex"
+    },
     img: visualVortex,
-    description: "Um gerador de imagens com IA",
+    description: {
+      en: "An AI image generator",
+      pt: "Um gerador de imagens com IA"
+    },
     projectLink: "https://virtualvortex.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/VisualVortex",
-    title: "VisualVortex",
+    title: {
+      en: "VisualVortex",
+      pt: "VisualVortex"
+    },
     tags: ["Full-stack", "Web App", "AI"],
   },
   {
-    name: "Gigtastic",
+    name: {
+      en: "Gigtastic",
+      pt: "Gigtastic"
+    },
     img: gigtastic,
-    description: "Website onde podes postar os teus serviços digitais",
+    description: {
+      en: "Website where you can post your digital services",
+      pt: "Website onde podes postar os teus serviços digitais"
+    },
     projectLink: "https://github.com/FranciscoCosta/Gigtastic",
     codeLink: "https://github.com/FranciscoCosta/Gigtastic",
-    title: "Gigtastic",
+    title: {
+      en: "Gigtastic",
+      pt: "Gigtastic"
+    },
     tags: ["Full-stack", "Web App", "React JS"],
   },
   {
-    name: "Restaurante",
+    name: {
+      en: "Restaurant",
+      pt: "Restaurante"
+    },
     img: work1,
-    description: "Lading page para um restaurante",
+    description: {
+      en: "Landing page for a restaurant",
+      pt: "Lading page para um restaurante"
+    },
     projectLink: "https://portugueslp.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/RestauranteLP",
-    title: "Português LP",
+    title: {
+      en: "Português LP",
+      pt: "Português LP"
+    },
     tags: ["UI/UX", "React JS", "Web App"],
   },
   {
-    name: "Game TrybeWars",
+    name: {
+      en: "Game TrybeWars",
+      pt: "Game TrybeWars"
+    },
     img: work2,
-    description: "Um jogo de browser feito com React, Mysql, Express e Node",
+    description: {
+      en: "A browser game made with React, MySQL, Express, and Node",
+      pt: "Um jogo de browser feito com React, Mysql, Express e Node"
+    },
     projectLink: "https://github.com/Alunos-Trybe/TrybeWars",
     codeLink: "https://github.com/Alunos-Trybe/TrybeWars",
-    title: "TrybeWars",
+    title: {
+      en: "TrybeWars",
+      pt: "TrybeWars"
+    },
     tags: ["Em desenvolvimento", "React JS"],
   },
   {
-    name: "T-Recipes",
+    name: {
+      en: "T-Recipes",
+      pt: "T-Recipes"
+    },
     img: work3,
-    description:
-      "Uma app na qual a pessoa pode pesquisar receitas de comida e bebida",
+    description: {
+      en: "An app where you can search for food and drink recipes",
+      pt: "Uma app na qual a pessoa pode pesquisar receitas de comida e bebida"
+    },
     projectLink: "https://t-recipe.netlify.app/meals",
     codeLink: "https://github.com/FranciscoCosta/app-receitas-grupo-20",
-    title: "T-Recipes",
+    title: {
+      en: "T-Recipes",
+      pt: "T-Recipes"
+    },
     tags: ["Web App", "React JS"],
   },
   {
-    name: "Trybe Market",
+    name: {
+      en: "Trybe Market",
+      pt: "Trybe Market"
+    },
     img: work4,
-    description: "Um e-commerce criado através da api do mercado livre",
+    description: {
+      en: "An e-commerce created through the Mercado Livre API",
+      pt: "Um e-commerce criado através da api do mercado livre"
+    },
     projectLink: "https://lnkd.in/dBNHNzBr",
     codeLink: "https://lnkd.in/dQYWMh-q",
-    title: "Trybe Market",
+    title: {
+      en: "Trybe Market",
+      pt: "Trybe Market"
+    },
     tags: ["UI/UX", "React JS", "Web App"],
   },
   {
-    name: "Trivia",
+    name: {
+      en: "Trivia",
+      pt: "Trivia"
+    },
     img: work5,
-    description: "Um jogo de perguntas e respostas",
+    description: {
+      en: "A quiz game",
+      pt: "Um jogo de perguntas e respostas"
+    },
     projectLink: "https://trivia-trybe-game.netlify.app/",
     codeLink: "https://github.com/FranciscoCosta/triviatrybe",
-    title: "Trivia",
+    title: {
+      en: "Trivia",
+      pt: "Trivia"
+    },
     tags: ["React JS", "Web App"],
   },
 ];

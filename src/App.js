@@ -2,6 +2,8 @@ import React from 'react';
 import {About , Footer, Header , Skills , Work } from './container';
 import { Navbar } from './components';
 import './App.scss';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
@@ -12,7 +14,7 @@ const App = () => {
       <Work />
       <Skills />
       <Footer />
-
+      <ToastContainer />
     </div>
   )
 }

@@ -1,36 +1,59 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
-
 import { images } from "../../constants";
+import translations from "../../constants/translations";
 import "./Navbar.scss";
+import Flag from 'react-world-flags';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [isOn, setisOn] = useState(false);
+  const { language, toggleLanguage } = useLanguage();
 
-  const toogleTheme=()=>{
-    setisOn(!isOn)
-    if(isOn){
-      document.querySelector("html").classList.remove('dark-mode')
+  const toogleTheme = () => {
+    setisOn(!isOn);
+    if (isOn) {
+      document.querySelector("html").classList.remove("dark-mode");
+    } else {
+      document.querySelector("html").classList.add("dark-mode");
     }
-    else{ 
-      document.querySelector("html").classList.add('dark-mode')
-    }
-  }
+  };
+
+  const t = translations[language];
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.logo} alt="logo" />
+        <img
+          src={!isOn ? images[t.logo] : images[t.logoWhite]}
+          alt="logo"
+          style={{ width: "150px", height: "auto" }}
+        />
       </div>
       <ul className="app__navbar-links">
-        {["Home", "Sobre mim", "Projetos", "Skills", "Contato"].map((item) => (
+        {[t.home, t.aboutMe, t.projects, t.skills, t.contact].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
       </ul>
+
+      <button onClick={toggleLanguage} className="language-toggle">
+        {language === "en" ? (
+          <>
+            <Flag code="GB" style={{ width: 20, height: 15 }} />
+            <span>EN</span>
+          </>
+        ) : (
+          <>
+            <Flag code="PT" style={{ width: 20, height: 15 }} />
+            <span>PT</span>
+          </>
+        )}
+      </button>
       <motion.div
         className="app__navbar-theme"
         onClick={() => toogleTheme()}
@@ -59,7 +82,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["Home", "Sobre mim", "Projetos", "Skills", "Contato"].map(
+              {[t.home, t.aboutMe, t.projects, t.skills, t.contact].map(
                 (item) => (
                   <li key={item}>
                     <a href={`#${item}`} onClick={() => setToggle(false)}>

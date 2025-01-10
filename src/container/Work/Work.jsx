@@ -5,11 +5,13 @@ import { useState, useEffect } from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import { motion } from "framer-motion";
 import data from "../../data/work";
+import { useLanguage } from "../../context/LanguageContext";
 
 import AppWrap from "../../wrapper/AppWrap";
 import MotionWrap from "../../wrapper/MotionWraper";
 
 const Work = () => {
+  const { language } = useLanguage();
   const [activeFilter, setActiveFilter] = useState("All");
   const [animatedCard, setAnimatedCard] = useState({ y: 0, opacity: 1 });
   const [works, setWorks] = useState([]);
@@ -34,18 +36,27 @@ const Work = () => {
       }
     }, 500);
   };
+
+  const translations = {
+    en: {
+      heading: "Some of",
+    },
+    pt: {
+      heading: "Alguns dos",
+    }
+  };
+
   return (
     <>
       <h2 className="head-text">
-        Alguns dos <span>meus projetos </span>
-        <br /> Como dev
+        {translations[language].heading} <span>{language === 'pt' ? 'meus projetos' : 'my projects'}</span>
+        <br /> 
       </h2>
       <div className="app__work-filter">
         {[
           "UI/UX",
           "Web App",
           "React JS",
-          "Em desenvolvimento",
           "React Native",
           "Full-stack",
           "All",
@@ -69,7 +80,7 @@ const Work = () => {
         {FiterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div className="app__work-img app__flex">
-              <img src={work.img} alt={work.name} />
+              <img src={work.img} alt={work.name[language]} />
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
@@ -102,9 +113,9 @@ const Work = () => {
               </motion.div>
             </div>
             <div className="app__work-content app__flex">
-              <h4 className="bold-text">{work.title}</h4>
+              <h4 className="bold-text">{work.title[language]}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>
-                {work.description}
+                {work.description[language]}
               </p>
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
