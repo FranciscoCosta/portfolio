@@ -48,7 +48,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">
+      <h2 className="head-text" id ="Projects">
         {translations[language].heading} <span>{language === 'pt' ? 'meus projetos' : 'my projects'}</span>
         <br /> 
       </h2>
@@ -57,6 +57,7 @@ const Work = () => {
           "UI/UX",
           "Web App",
           "React JS",
+
           "React Native",
           "Full-stack",
           "All",

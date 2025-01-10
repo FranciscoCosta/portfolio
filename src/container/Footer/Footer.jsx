@@ -6,6 +6,8 @@ import emailjs from '@emailjs/browser';
 import { useLanguage } from '../../context/LanguageContext';
 import { toast } from 'react-toastify';
 
+
+
 import './Footer.scss';
 
 const Footer = () => {
@@ -64,7 +66,9 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className="head-text" id='Contato'>{translations[language].title}</h2>
+      <h2 className="head-text" id={language === 'pt' ? 'Contato' : 'Contact'}>
+        {translations[language].title}
+      </h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">

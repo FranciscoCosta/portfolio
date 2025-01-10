@@ -21,7 +21,7 @@ function About() {
 
   return (
     <>
-      <h2 className="head-text" dangerouslySetInnerHTML={{ __html: translations[language].heading }} />
+      <h2 className="head-text" id="About Me" dangerouslySetInnerHTML={{ __html: translations[language].heading }} />
 
       <div className="app__profiles ">
         {sobremim.map((item,index)=>(
