@@ -54,10 +54,10 @@ const Work = () => {
       </h2>
       <div className="app__work-filter">
         {[
+          "Web3",
           "UI/UX",
           "Web App",
           "React JS",
-
           "React Native",
           "Full-stack",
           "All",
